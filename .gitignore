@@ -1,0 +1,53 @@
+# Dependency directories
+node_modules/
+ 
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS and IDE specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+*.iml
+
+# Build directories
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Cache
+.cache/
+*.cache
+tmp/
+temp/
+
+# Tests
+coverage/
+*.lcov
+
+# Miscellaneous
+*.lock
+*.bak
+*.pid
+*.seed
+*.pid.lock
+
+# Ignoring public coverage files
+public/static/
+
+# Git-generated files
+*.orig
+
+# Ignore any local configuration files
+*.local
